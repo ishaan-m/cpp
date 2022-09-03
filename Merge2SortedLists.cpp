@@ -60,7 +60,7 @@ int main(){
     ListNode* header2=new ListNode(4);
     ListNode* p1=new ListNode(5);
     ListNode* p2=new ListNode(6);
-    ListNode* p3=new ListNode(7);
+    ListNode* p3=new ListNode(8);
     header2->next=p1;p1->next=p2;p2->next=p3;p3->next=NULL;
 
     ListNode* newHeader=mergeTwoLists(header1,NULL);
